@@ -236,7 +236,7 @@ class ModelBuilderEnv_66:
             csvFile = '2021-01-01_2021-12-31_M1_A.csv'
             #pathToCSV = Path('..').joinpath('OandaHistorical').joinpath('2021M1A_Raw').joinpath(csvFile)
             self.raw = pd.read_csv(csvFile)
-            print('HISTORICAL DATA WAS COLLECTED')
+            print('Historical data was COLLECTED')
 
                 # because this is coming from a csv file, we need to create time index
         except:
