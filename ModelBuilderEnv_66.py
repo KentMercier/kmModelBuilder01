@@ -240,7 +240,7 @@ class ModelBuilderEnv_66:
 
                 # because this is coming from a csv file, we need to create time index
         except:
-            print('HISTORICAL DATA WAS NOT COLLECTED')
+            print('Historical data was NOT COLLECTED')
                 
                 
         self.raw.set_index('time', 1, inplace = True)
